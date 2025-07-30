@@ -46,7 +46,7 @@ export default function Home() {
       <main className="container mx-auto px-4 py-8">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-3xl font-bold text-white mb-8">
-            Next.js MP3 Player
+            Next.js MP3 Player Adnan
           </h1>
           
           <AudioPlayer
