@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for range input */
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 5px;
+  background: #4a5568;
+  border-radius: 5px;
+  background-image: linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
