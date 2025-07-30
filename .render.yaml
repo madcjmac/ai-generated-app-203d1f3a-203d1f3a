@@ -1,0 +1,4 @@
+build:
+  cachePaths:
+    - node_modules
+    - .next/cache
